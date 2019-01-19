@@ -1,0 +1,20 @@
+{
+  "name": "controlsuite",
+  "version": "1.0.0",
+  "description": "Model Railway Remote : Tool to control Technic on the go",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "suite",
+    "modellbahn",
+    "train",
+    "control"
+  ],
+  "author": "comcloud",
+  "license": "MIT"
+}

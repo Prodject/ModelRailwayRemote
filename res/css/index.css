@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "ET";
+    src: url("/res/font/EnglishTowne.ttf");
+}
+@media screen and (orientation:portrait) {
+  /*Portrait Mode*/
+  .bg {
+    position:fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    z-Index:-1;
+    }
+    .bg-overlay {
+    background-color:black;
+    opacity:0.7;
+    width:100%;
+    height:100%;
+    position:fixed;
+    margin:0;
+    padding:0;
+    left:0;
+    top:0
+    }
+    .logo {
+      position:fixed;
+      z-Index:2;
+      top: -7%;
+      left: 0;
+      padding-left: 30%;
+      color:black;
+      font-size:300%;
+      font-family:ET;
+      width: 100%;
+      background-color: whitesmoke;
+      border-bottom-color: steelblue;
+      border-bottom-style: solid;
+      border-bottom-width: 15%;
+      padding: 5%;
+      }
+      .container {
+        position:fixed;
+        left:0;
+        top:15%;
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+        z-Index:1;
+        color:white;
+        }
+        .menu-bar {
+        overflow-y:scroll;
+        }
+      .box {
+
+        margin: 5%;
+        height:20%;
+        width:auto;
+        opacity: 0.7;
+        border-radius:15px;
+        border-style:solid;
+        border-color: none;
+        }
+        .home {
+         
+          height:10%;
+          width:auto;
+          border-radius:15px;
+          border-style:solid;
+          border-color: none;
+          position:fixed;
+          bottom: 15px;
+          right:15px;
+          z-index: 5;
+          }
+}
+@media screen and (orientation:landscape) {
+  /*Landscape*/
+.bg {
+position:fixed;
+top:0;
+left:0;
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+z-Index:-1;
+}
+.bg-overlay {
+background-color:black;
+opacity:0.7;
+width:100%;
+height:100%;
+position:fixed;
+margin:0;
+padding:0;
+left:0;
+top:0
+}
+.logo {
+position:fixed;
+z-Index:2;
+top: 5%;
+right: 15%;
+color:white;
+font-size:300%;
+font-family:ET;
+
+}
+.home {
+display: inline-block;
+height:20%;
+width:auto;
+border-radius:15px;
+border-style:solid;
+border-color: none;
+position:fixed;
+bottom: 15px;
+right:15px;
+z-index: 5;
+}
+.container {
+position:fixed;
+left:0;
+top:0;
+margin:0;
+padding:0;
+width:100%;
+height:100%;
+z-Index:1;
+color:white;
+padding: 70px 0;
+}
+.menu-bar {
+padding: 15% 0;
+height:50%;
+overflow-x:scroll;
+  white-space: nowrap;
+}
+.box {
+display: inline-block;
+margin-top:5%;
+height:50%;
+width:auto;
+border-radius:15px;
+border-style:solid;
+border-color: none;
+}
+.box:hover , .box:active{
+margin-top:1.5%;
+height:75%;
+width:auto;
+border-radius:15px;
+border-style:solid;
+border-color: none;
+}
+}
