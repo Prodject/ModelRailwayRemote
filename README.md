@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+#Model Railway Remote
+... is a Raspberry PI powered Node.js Web Application for remote control of your Model Railway accessories using your Browser.
 
-You can use the [editor on GitHub](https://github.com/comCloud/ModelRailwayRemote/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#Requirements
+- at least 1 Raspberry PI
+- Raspian Lite
+- Micro SD Card (min. 16GB)
+- Node.js
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/comCloud/ModelRailwayRemote/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+#Setup
+1. Write Raspian Lite to SD Card
+2. Setup Raspbian
+3. Install the newest aviable Node.js version (for help: https://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/)
+4. install all necessary Node.js libraries using npm: onoff, express
+5. Download script + create Script to run the Node.js Server at Startup
+6. Modify the pin id the image location and the ID's to fit your needs
+7. your ready to go just go to your raspberry pi's ip adress on port 8080 using your Web Browser.
+8. It should be working ( contact me if you need help)
