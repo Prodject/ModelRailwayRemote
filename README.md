@@ -1,5 +1,3 @@
-#Model Railway Remote
-... is a Raspberry PI powered Node.js Web Application for remote control of your Model Railway accessories using your Browser.
 
 #Requirements
 - at least 1 Raspberry PI
